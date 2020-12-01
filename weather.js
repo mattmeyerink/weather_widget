@@ -33,12 +33,12 @@ form.addEventListener('submit', function(event) {
             $('#humidity').text("Humidity: " + data.main.humidity + "%");
         })
 
-        $('#weatherCard').show()
-        $('#input').hide()
+        $('#weatherCard').show();
+        $('#input').hide();
     }
 })
 
 document.getElementById('changeCity').onclick = function() {
-    $('#weatherCard').hide()
-    $('#input').show()
+    $('#weatherCard').hide();
+    $('#input').show();
 }
