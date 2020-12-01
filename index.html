@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css"/>
+</head>
+
+<body class="bg">
+    <main class="container">
+      <div class="col-md-4 offset-4 card" id="input">
+        <div class="row justify-content-center" style="padding-top: 5px">
+          <h1>Weather</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <form id="weather">
+              <div class="form-group">
+                <input type="text" id="city" class="form-control" placeholder="City" style="margin-bottom: 5px">
+                <input type="submit" id="submit" class="btn btn-primary form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-md-4 weather-card" id="weatherCard">
+          <div class="row justify-content-center">
+            <h1 id="cityName"></h1>
+          </div>
+          <div class="row justify-content-center">
+            <div id="icon">
+              <img id="iconImage" src="" alt="Oops" class="img-fluid">
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <p id="description"></p>
+          </div>
+          <div class="row justify-content-center">
+            <p id="currentTemp"></p>
+          </div>
+          <div class="row justify-content-center">
+            <p id="max"></p>
+          </div>
+          <div class="row justify-content-center">
+            <p id="min"></p>
+          </div>
+          <div class="row justify-content-center">
+            <p id="feelsLike"></p>
+          </div>
+          <div class="row justify-content-center">
+            <p id="humidity"></p>
+          </div>
+          <div class="row justify-content-center">
+            <button id="changeCity" class="btn btn-primary">Change City</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./weather.js"></script>
+</body>
+
+</html>
