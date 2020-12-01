@@ -1,7 +1,7 @@
 var form = $('#weather').get(0);
 var city = $('#city').get(0);
 
-const API_KEY = '363c76b6a6ee42eeb9d7828dd78656b9'
+const API_KEY = // Enter my open Weather API Key
 
 $('#weatherCard').hide()
 
